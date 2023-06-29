@@ -1,0 +1,149 @@
+name: motivation_app
+description: A new Flutter project.
+# The following line prevents the package from being accidentally published to
+# pub.dev using `flutter pub publish`. This is preferred for private packages.
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+# The following defines the version and build number for your application.
+# A version number is three numbers separated by dots, like 1.2.43
+# followed by an optional build number separated by a +.
+# Both the version and the builder number may be overridden in flutter
+# build by specifying --build-name and --build-number, respectively.
+# In Android, build-name is used as versionName while build-number used as versionCode.
+# Read more about Android versioning at https://developer.android.com/studio/publish/versioning
+# In iOS, build-name is used as CFBundleShortVersionString while build-number is used as CFBundleVersion.
+# Read more about iOS versioning at
+# https://developer.apple.com/library/archive/documentation/General/Reference/InfoPlistKeyReference/Articles/CoreFoundationKeys.html
+# In Windows, build-name is used as the major, minor, and patch parts
+# of the product and file versions while build-number is used as the build suffix.
+version: 1.0.0+1
+
+environment:
+  sdk: '>=2.19.6 <3.0.0'
+
+# Dependencies specify other packages that your package needs in order to work.
+# To automatically upgrade your package dependencies to the latest versions
+# consider running `flutter pub upgrade --major-versions`. Alternatively,
+# dependencies can be manually updated by changing the version numbers below to
+# the latest version available on pub.dev. To see which dependencies have newer
+# versions available, run `flutter pub outdated`.
+dependencies:
+  flutter:
+    sdk: flutter
+
+
+  # The following adds the Cupertino Icons font to your application.
+  # Use with the CupertinoIcons class for iOS style icons.
+  cupertino_icons: ^1.0.2
+  intl: ^0.18.1
+  flip_card: ^0.7.0
+  get: ^4.6.5
+  flutter_launcher_icons: ^0.13.1
+  change_app_package_name: ^1.1.0
+
+ 
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  # The "flutter_lints" package below contains a set of recommended lints to
+  # encourage good coding practices. The lint set provided by the package is
+  # activated in the `analysis_options.yaml` file located at the root of your
+  # package. See that file for information about deactivating specific lint
+  # rules and activating additional ones.
+  flutter_lints: ^2.0.0
+
+# For information on the generic Dart part of this file, see the
+# following page: https://dart.dev/tools/pub/pubspec
+
+# The following section is specific to Flutter packages.
+flutter:
+
+  # The following line ensures that the Material Icons font is
+  # included with your application, so that you can use the icons in
+  # the material Icons class.
+  uses-material-design: true
+
+  # To add assets to your application, add an assets section, like this:
+  # assets:
+  #   - images/a_dot_burr.jpeg
+  #   - images/a_dot_ham.jpeg
+
+  # An image asset can refer to one or more resolution-specific "variants", see
+  # https://flutter.dev/assets-and-images/#resolution-aware
+
+  # For details regarding adding assets from package dependencies, see
+  # https://flutter.dev/assets-and-images/#from-packages
+
+  # To add custom fonts to your application, add a fonts section here,
+  # in this "flutter" section. Each entry in this list should have a
+  # "family" key with the font family name, and a "fonts" key with a
+  # list giving the asset and other descriptors for the font. For
+  # example:
+  fonts:
+    - family: The Jamsil
+      fonts:
+        - asset : lib/asset/img/font/The Jamsil 1 Thin.ttf
+          weight: 100
+        - asset : lib/asset/img/font/The Jamsil 2 Light.ttf
+          weight: 200
+        - asset : lib/asset/img/font/The Jamsil 3 Regular.ttf
+          weight: 300
+        - asset : lib/asset/img/font/The Jamsil 4 Medium.ttf
+          weight: 400
+        - asset : lib/asset/img/font/The Jamsil 5 Bold.ttf
+          weight: 500
+        - asset : lib/asset/img/font/The Jamsil 6 ExtraBold.ttf
+          weight: 600
+
+
+  
+  # For details regarding fonts from package dependencies,
+  # see https://flutter.dev/custom-fonts/#from-packages
+
+
+# 더잠실체
+# 서체소개
+# 젊고, 새롭게 변화된 롯데마트 ‘더잠실체’
+# 롯데마트는 기존의 노후화된 브랜드 이미지를 탈피하고자 22년 ‘Everyday New Store’로 새로운 비전을 선포하고, 고객들이 젊고 변화된 롯데마트를 경험할 수 있도록 서체개발을 진행했습니다. ‘더잠실체’는 롯데마트 브랜드 이미지와 잠실지역의 역사성을 함께 녹여낸 새로운 시도이며, 롯데의 헤리티지가 곧 잠실이라는 점에 주목하여 지역명 ‘잠실’을 서체의 이름으로 선정하였습니다. ‘더잠실체’는 국문, 영문 외 베트남 및 인도네시아어까지 개발하여 해외에서도 한글의 아름다움을 느끼고, 대한민국을 대표하는 지역으로서의 ‘잠실’을 알리는 것을 최종 목표로 하고있습니다.
+
+# 서체컨셉
+# ‘잠실’은 ‘누에를 치는 방’을 의미합니다
+# 잠실은 ‘누에를 치는 방’이라는 뜻으로, 과거 잠실지역은 양잠을 장려하던 곳이었습니다.
+# 서체 디자인에 앞서 롯데의 해리티지 ‘잠실’을 어떻게 새롭게 보여줄 수 있을지 고민했고, 잠실의 옛 상징 ‘누에’를 담아보고자 했습니다.
+
+# 형태적 특징
+# 1. 누에의 일생을 담았습니다
+# 더잠실체는 누에가 뽕잎을 먹기위해 머리를 드는 모습부터, 누에고치를 만드는 과정, 그리고 마지막으로 누에고치에서 실을 뽑아내는 모습을 현대적으로 해석하고 적용하여 새롭게 변화된 롯데마트다움을 잘 표현한 서체입니다.
+
+# 누에고치
+# 한글 서체의 인상을 결정짓는 가장 중요한 ‘O’꼴에 누에고치의 둥글고 길쭉한 모양을 적용하여, 잠실의 헤리티지와 롯데쇼핑의 단단한 내실을 표현
+
+# 명주실
+# 흐트러짐 없이 뽑아져 나오는 명주실의 모습에서 생동감을 느끼고, 최상의 결과물을 뽑아 내는 롯데마트의 엄격한 기준을 상징
+
+# 누에머리
+# ‘모음’의 특징은 잠두마제(서예의 근간이 되는 필법)에서 아이디어를 얻어, 획의 끝 부분에 누에머리 형상을 현대적으로 표현
+# 2. 작은글씨부터 큰 글씨까지 모두 읽고 보는데 불편함이 없습니다
+
+# 3. 여섯가지 굵기로 어디에나 사용하기 편리합니다
+
+# 더 많은 활용예시
+
+# Download
+# 더잠실체는 기업이나 개인 모두 무료로 사용 가능합니다.
+# 아래 버튼을 눌러 더잠실체를 다운로드 받으세요.
+# 더잠실체 OTF 더잠실체 TTF
+# [더잠실 글꼴 사용 조건 및 안내]
+# 더잠실체의 지적재산권은 모두 롯데쇼핑(주)롯데마트사업부(이하, "롯데마트")에 있습니다. 더잠실체는 무료로 사용할 수 있으며, 본 사용규정 안내 전문을 포함하여 재배포하실 수 있습니다.
+# 정확한 사용 조건은 아래 라이선스 전문을 참고하시기 바랍니다.
+# * 상세 사용규정 *
+# 1. 사용 제한 및 조건
+# 1) 더잠실 글자체는 인쇄나 출판, 영상, 웹, 모바일 등에 자유롭게 사용할 수 있습니다.
+# 2) 더잠실 글자체를 수정하거나 다른 포맷으로 변형하여 사용하는 것은 엄격하게 금지됩니다.
+# 3) 더잠실 글자체는 폰트 소프트웨어 또는 개별 구성요소인 폰트 자체로 유료로 판매할 수 없습니다.
+# 4) 더잠실 글자체는 전체나 부분 여부에 상관 없이 저작권자 안내와 본 라이선스 규정 내용을 포함하는 경우에는 다른 소프트웨어와 함께 묶이거나 재배포가 가능합니다.
+# 5) 더잠실 글자체가 사용된 인쇄물, 광고물(온라인 포함) 이미지 등은 롯데마트가 홍보 목적을 위해 활용할 수 있습니다. 이를 원치 않는 사용자는 언제든지 당사 고객센터로 요청 부탁드립니다.
+# 6) 본 라이선스는 상기 조건 중 일부라도 부합되지 않으면 무효가 될 수 있습니다.
+# 7) 롯데마트는 더잠실 글자체의 사용 또는 기타 더잠실 글자체의 취급과 관련하여 발생하는 어떠한 책임도 가지지 않습니다.
